@@ -1,0 +1,46 @@
+$primary-color: #fff;
+$second-color: #202021;
+$gray: #636469;
+$pr-gradient: linear-gradient(90.00deg, #0056FE, #19BFEA 100%);
+$sec-gradient: linear-gradient(137.70deg, rgb(57, 199, 236) 2.254%, rgb(57, 199, 236) 2.263%, rgb(0, 80, 236) 98.244%);
+$accent-color: #0056FE;
+$accent-light-color: #19BFEA;
+$accent-lighter-color: #A6E4F4;
+
+
+$main-font-size: 16px;
+
+
+$primary-fonts: 'Wix Madefor Display';
+
+@font-face {
+    font-display: swap;
+    font-family: 'Wix Madefor Display';
+    font-style: normal;
+    font-weight: 400;
+    src: url('fonts/wix-madefor-display-v10-cyrillic_latin-regular.woff2') format('woff2');
+}
+
+@font-face {
+    font-display: swap;
+    font-family: 'Wix Madefor Display';
+    font-style: normal;
+    font-weight: 500;
+    src: url('fonts/wix-madefor-display-v10-cyrillic_latin-500.woff2') format('woff2');
+}
+
+@font-face {
+    font-display: swap;
+    font-family: 'Wix Madefor Display';
+    font-style: normal;
+    font-weight: 600;
+    src: url('fonts/wix-madefor-display-v10-cyrillic_latin-600.woff2') format('woff2');
+}
+
+@font-face {
+    font-display: swap;
+    font-family: 'Wix Madefor Display';
+    font-style: normal;
+    font-weight: 700;
+    src: url('fonts/wix-madefor-display-v10-cyrillic_latin-700.woff2') format('woff2');
+}

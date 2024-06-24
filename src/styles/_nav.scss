@@ -1,0 +1,132 @@
+.nav {
+    margin-left: auto;
+}
+
+.nav__lists {
+    display: flex;
+    align-items: center;
+    column-gap: 40px;
+}
+
+.nav__item {
+    padding: 14px 2px;
+}
+
+.nav__item.active {
+    border-bottom: 2px solid $accent-color;
+
+    .nav__link {
+        color: $accent-color;
+    }
+
+    .nav__link-arrow {
+        background: url('./images/arrow-blue.svg') center/cover no-repeat;
+    }
+}
+
+.nav__link-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.nav__link {
+    color: $second-color;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 100%;
+
+    transition: ease-in .2s;
+
+    &:hover {
+        color: $accent-color;
+
+    }
+}
+
+.nav__link-arrow {
+    display: block;
+    background: url('./images/arrow.svg') center/cover no-repeat;
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+    transform: rotate(180deg);
+}
+
+.nav__btn {
+    padding: 20px 30px;
+    border-radius: 10px;
+    background: $accent-color;
+    border: none;
+    cursor: pointer;
+    color: $primary-color;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 100%;
+
+    transition: background ease-in-out .3s;
+
+    &:hover {
+        background: #083da4;
+
+    }
+}
+
+.nav__item-products {
+    position: relative;
+}
+
+.nav__sublist {
+    display: flex;
+    padding: 40px;
+    column-gap: 20px;
+
+    position: absolute;
+    top: 90px;
+    left: -400px;
+    border: 1px solid rgb(213, 221, 229);
+    border-radius: 40px;
+
+    background: rgb(239, 241, 247);
+}
+
+.nav__sublist_title {
+    color: rgb(32, 32, 33);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 120%;
+    margin-bottom: 10px;
+    transition: all ease-in-out .3s;
+
+}
+
+.nav__sublist_text {
+    color: rgb(32, 32, 33);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 140%;
+}
+
+.nav__sub-item {
+    width: 320px;
+    padding: 20px;
+    border-radius: 20px;
+
+    background: $primary-color;
+    transition: all ease-in-out .3s;
+
+    &:hover {
+        transition: all ease-in-out .3s;
+
+        .nav__sublist_title {
+            background: linear-gradient(137.70deg, rgb(57, 199, 236) 2.254%, rgb(57, 199, 236) 2.263%, rgb(0, 80, 236) 98.244%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        box-shadow: 5px 5px 20px 0px rgba(200, 212, 223, 0.8),
+        3px 3px 10px 0px rgba(210, 218, 227, 0.5),
+        -3px -3px 10px 0px rgb(255, 255, 255),
+        -5px -5px 18px 0px rgba(255, 255, 255, 0.9);
+    }
+}
