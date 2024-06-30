@@ -12,6 +12,7 @@ $main-font-size: 16px;
 
 
 $primary-fonts: 'Wix Madefor Display';
+$secondary-fonts: 'Roboto';
 
 @font-face {
     font-display: swap;
@@ -43,4 +44,21 @@ $primary-fonts: 'Wix Madefor Display';
     font-style: normal;
     font-weight: 700;
     src: url('fonts/wix-madefor-display-v10-cyrillic_latin-700.woff2') format('woff2');
+}
+
+
+@font-face {
+    font-display: swap;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    src: url('fonts/roboto-v29-latin_cyrillic-700.woff2') format('woff2');
+}
+
+@font-face {
+    font-display: swap;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    src: url('fonts/roboto-v29-latin_cyrillic-regular.woff2') format('woff2');
 }
