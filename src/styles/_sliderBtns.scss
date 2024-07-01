@@ -39,6 +39,11 @@
 
     transition: box-shadow .3s ease-in-out;
 
+    &:active {
+        box-shadow: 5px 5px 20px 0px rgba(67, 157, 242, 0.8), 3px 3px 10px 0px rgba(32, 128, 238, 0.5), -3px -3px 10px 0px rgb(255, 255, 255), -5px -5px 18px 0px rgba(255, 255, 255, 0.9);
+
+    }
+
     &:hover {
         transition: transform 0.3s ease-in-out;
 

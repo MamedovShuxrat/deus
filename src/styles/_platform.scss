@@ -1,13 +1,13 @@
-.products__inner {
+.platform__inner {
     display: flex;
 }
 
-.products__title_wrapper {
+.platform__title_wrapper {
     max-width: 50%;
     padding: 0 100px 254px 0;
 }
 
-.products__title {
+.platform__title {
     background: linear-gradient(90.00deg, rgb(57, 199, 236), rgb(57, 199, 236), rgb(0, 80, 236));
     -webkit-background-clip:
         text;
@@ -24,7 +24,7 @@
 
 }
 
-.products__title-accent {
+.platform__title-accent {
     display: block;
     font-size: 50px;
     font-weight: 700;
@@ -32,7 +32,7 @@
     color: $second-color;
 }
 
-.products__visual {
+.platform__visual {
     width: 50%;
     border-radius: 40px;
 
@@ -40,12 +40,12 @@
     padding: 60px;
 }
 
-.products__data {
+.platform__data {
     display: flex;
     column-gap: 33px;
 }
 
-.products__circle {
+.platform__circle {
     min-width: 321px;
     min-height: 321px;
     border-radius: 50%;
@@ -58,7 +58,7 @@
 }
 
 
-.products__circle_inner {
+.platform__circle_inner {
     width: 252px;
     height: 252px;
     border-radius: 50%;
@@ -72,7 +72,7 @@
     box-shadow: 0px 0px 30.87px 0px rgba(159, 181, 202, 0.3);
 }
 
-.products__circle_dates {
+.platform__circle_dates {
     width: 151px;
     height: 151px;
     box-shadow: 0px 0px 30.87px 0px rgba(159, 181, 202, 0.3);
@@ -84,7 +84,7 @@
 
 }
 
-.products__circle_data {
+.platform__circle_data {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -108,7 +108,7 @@
 }
 
 
-.products__info {
+.platform__info {
     color: $second-color;
     font-size: 26px;
     font-weight: 500;
@@ -117,7 +117,7 @@
     padding-top: 50px;
 }
 
-.products__info-accent {
+.platform__info-accent {
     color: rgb(0, 0, 0);
     font-family: $secondary-fonts;
     font-size: 26px;
@@ -125,17 +125,17 @@
     line-height: 56px;
 }
 
-.products__slider {
+.platform__slider {
     margin-top: 56px;
 }
 
-.products__dots {
+.platform__dots {
     display: flex;
     gap: 10px;
 }
 
 
-.products__dot {
+.platform__dot {
     width: 20px;
     height: 20px;
     border-radius: 50%;
@@ -143,12 +143,11 @@
     justify-content: center;
     align-items: center;
     position: relative;
-    // background: conic-gradient(rgb(57, 199, 236) 0%, rgb(57, 199, 236) 0%, #ffffff 0%);
     transition: background 0.3s ease;
     box-shadow: 0px 0px 10px 0px rgba(159, 181, 202, 0.3);
 }
 
-.products__dot_data {
+.platform__dot_data {
     font-size: 12px;
     width: 14px;
     height: 14px;
@@ -158,7 +157,7 @@
     border-radius: 50%;
 }
 
-.products__slider {
+.platform__slider {
     display: flex;
     justify-content: space-between;
     align-items: center;
