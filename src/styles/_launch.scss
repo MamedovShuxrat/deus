@@ -1,0 +1,32 @@
+.launch {
+    background: rgb(239, 241, 247);
+    padding: 120px 0 100px;
+}
+
+.launch__text_wrapper {
+    margin-bottom: 60px;
+}
+
+.launch__title-accent {
+    display: block;
+}
+
+.launch__btn {
+    margin-top: 90px;
+    padding: 20px 30px;
+    color: $primary-color;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 100%;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+
+    background: $accent-color;
+    transition: background ease-in-out .3s;
+
+    &:hover {
+        background: rgb(0, 48, 142);
+
+    }
+}

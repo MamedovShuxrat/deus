@@ -1,0 +1,32 @@
+.products {
+    padding: 140px 0 150px;
+}
+
+.products__inner {
+    display: flex;
+    border-radius: 40px;
+    padding: 80px;
+    background: rgb(239, 241, 247);
+}
+
+.products__text_wrapper {
+    width: 40%;
+}
+
+
+.products__title-accent {
+    display: block;
+
+}
+
+.products__desc {
+    margin-top: 20px;
+    color: $second-color;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 140%;
+}
+
+.products__cards_wrapper {
+    width: 60%;
+}

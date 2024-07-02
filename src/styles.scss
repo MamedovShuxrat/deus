@@ -7,6 +7,11 @@
 @import "styles/cases.scss";
 @import "styles/cards.scss";
 @import "styles/banner.scss";
+@import "styles/products.scss";
+@import "styles/launch.scss";
+@import "styles/tasks.scss";
+@import "styles/reasons.scss";
+@import "styles/partners.scss";
 
 
 @import "styles/footer.scss";
@@ -46,4 +51,23 @@ a {
     margin: 0 auto;
     padding: 0 15px;
     border: 1px solid red;
+}
+
+.title {
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 120%;
+    color: $second-color;
+}
+
+.title-accent {
+    background: linear-gradient(90.00deg, rgb(57, 199, 236), rgb(57, 199, 236), rgb(0, 80, 236));
+    -webkit-background-clip:
+        text;
+    -webkit-text-fill-color:
+        transparent;
+    background-clip:
+        text;
+    text-fill-color:
+        transparent;
 }
