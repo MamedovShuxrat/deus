@@ -1,0 +1,687 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deus</title>
+<script defer src="bundle.js"></script><link href="styles.css" rel="stylesheet"></head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header__inner">
+                <div class="header__lists">
+                    <a href="#" class="header__logo">
+                        <img class="header__logo-pic" src="images\logo..svg" alt="logo">
+                    </a>
+                </div>
+                <nav class="nav ">
+                    <ul class=" nav__lists">
+                        <div class="nav__item_wrapper ">
+                            <li class="nav__item nav__item-products ">
+                                <div class="nav__link-wrapper">
+                                    <a href="#products " class="nav__link ">Продукты</a>
+                                    <span class="nav__link-arrow"></span>
+                                </div>
+                                <div class="nav__sublist  ">
+                                    <div class="nav__sub-item">
+                                        <p class="nav__sublist_title">
+                                            Продажи на маркетплейсах
+                                        </p>
+                                        <span class="nav__sublist_text">Автоматизация продаж на универсальных
+                                            маркетплейсах</span>
+                                    </div>
+                                    <div class="nav__sub-item">
+                                        <h5 class="nav__sublist_title">
+                                            Интернет-магазин
+                                        </h5>
+                                        <span class="nav__sublist_text">Автоматизация онлайн-продаж для вашего
+                                            интернет-магазина</span>
+                                    </div>
+                                    <div class="nav__sub-item">
+                                        <h5 class="nav__sublist_title">
+                                            Нишевые маркетплейсы
+                                        </h5>
+                                        <span class="nav__sublist_text">Управление собственным маркетплейсом</span>
+                                    </div>
+                                    <div class="nav__sub-item">
+                                        <h5 class="nav__sublist_title">
+                                            Шина данных (ESB)
+                                        </h5>
+                                        <span class="nav__sublist_text">Управление обменом данных и интеграции</span>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="nav__item ">
+                                <a href="#platform " class="nav__link">Платформа</a>
+                            </li>
+                            <li class="nav__item">
+                                <a href="#cases " class="nav__link">Кейсы</a>
+                            </li>
+                            <li class="nav__item  ">
+                                <a href="#partners " class="nav__link">Партнёрам</a>
+                            </li>
+
+                        </div>
+                        <div class="nav__item_wrapper  ">
+                            <li class="nav__item">
+                                <a href="#blog " class="nav__link">Блог</a>
+                            </li>
+                            <li class="nav__item">
+                                <a href="#about " class="nav__link">О компании</a>
+                            </li>
+                            <li class="nav__item">
+                                <a href="#contacts " class="nav__link">Контакты</a>
+                            </li>
+
+                        </div>
+                    </ul>
+                </nav>
+                <div class="nav__lists-btn">
+                    <button id="openModal" type="submit" class="nav__btn ">Свяжитесь с нами</button>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section id="about" class="about">
+            <div class="container">
+                <div class="about__inner">
+                    <div class="about__context">
+                        <h1 class="title about__title">Заголовок для слайдера</h1>
+                        <p class="about__desc">Краткое описание УТП продукта, максимально две строки текста</p>
+                        <button type="submit" class="about__btn">Смотреть решение</button>
+                        <div class="slider__btn_wrapper slider__btn_wrapper-about">
+                            <button type="submit" class="slider__btn  ">
+                                <span class="slider__btn-left"></span>
+                            </button>
+                            <button type="submit" class="slider__btn   ">
+                                <span class="slider__btn-right"></span>
+                            </button>
+
+                        </div>
+                    </div>
+                    <div class="about__visual">
+                        <img src="images\about-bg2..png" alt="about" class="about__img">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="platform" class="platform">
+            <div class="container">
+                <div class="platform__inner">
+                    <div class=" platform__title_wrapper ">
+                        <h2 class="title platform__title"> Название продукта</h2>
+                        <span class="  platform__title-accent">для средних и крупных торговых и производственных
+                            компаний</span>
+                    </div>
+                    <div class="platform__visual">
+                        <div class="platform__data">
+                            <div class="platform__circle">
+                                <div class="platform__circle_inner">
+                                    <span class="platform__circle_dates">
+                                        <span class="platform__circle_data">42%</span>
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="platform__info">
+                                Автоматизация продаж <span class="platform__info-accent">увеличивает скорость </span>
+                                обслуживания клиентов на <span id="productPercentage"
+                                    class="platform__info-accent">42</span> %
+                            </div>
+                        </div>
+                        <div class="platform__slider">
+                            <div class="platform__dots">
+                            </div>
+                            <div class="slider__btn_wrapper">
+                                <button type="submit" id="left-btn-pr" class="slider__btn">
+                                    <span class="slider__btn-left"></span>
+                                </button>
+                                <button type="submit" id="right-btn-pr" class="slider__btn">
+                                    <span class="slider__btn-right"></span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="cases" class="cases">
+            <div class="container">
+                <div class="cases__inner">
+                    <div class="cards cards-cases">
+                        <div class="card__item card__item-column">
+                            <div class="card__icon_wrapper card__icon_wrapper-cases">
+                                <img src="images\cart..svg" alt="cart" class="card__icon card__icon-sm">
+                            </div>
+                            <p class="card__text card__text-cases">Разработка и автоматизация интернет-магазинов,
+                                маркетплейсов</p>
+                        </div>
+                        <div class="card__item card__item-column">
+                            <div class="card__icon_wrapper card__icon_wrapper-cases">
+                                <img src="images\code..svg" alt="code" class="card__icon">
+                            </div>
+                            <p class="card__text card__text-cases">Проекты любой сложности и конфигурации с помощью
+                                модульной архитектуры</p>
+                        </div>
+                        <div class="card__item card__item-column">
+                            <div class="card__icon_wrapper card__icon_wrapper-cases">
+                                <img src="images\todo..svg" alt="todo" class="card__icon">
+                            </div>
+                            <p class="card__text card__text-cases">ИТ-экспертиза и бизнес-консалтинг для достижения
+                                поставленных целей</p>
+                        </div>
+                        <div class="card__item card__item-column">
+                            <div class="card__icon_wrapper card__icon_wrapper-cases">
+                                <img src="images\search..svg" alt="search" class="card__icon">
+                            </div>
+                            <p class="card__text card__text-cases">Используем две модели развертывания SaaS</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="banner">
+            <div class="container">
+                <div class="banner__inner">
+                    <div class="banner__title_wrapper">
+                        <h2 class="banner__title">
+                            Новые тренды и инструменты для развития бизнеса
+                        </h2>
+                        <p class="banner__desc">Персональная эксперт-сессия</p>
+                    </div>
+                    <div class="bunner__wrapper">
+                        <button type="submit" class="bunner__btn ">Получить бесплатно</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="products" class="products">
+            <div class="container">
+                <div class="products__inner">
+                    <div class="products__text_wrapper">
+                        <h2 class="title products__title">Продукты для <span
+                                class="title-accent products__title-accent">eCom</span></h2>
+                        <div class="products__desc">Используйте готовые продукты от нашей компании или закажите
+                            персональную разработку.</div>
+                    </div>
+                    <div class="products__cards_wrapper">
+                        <div class="cards cards-products ">
+                            <div class="card__item card__item-products ">
+                                <div class="card__icon_wrapper card__icon_wrapper-products">
+                                    <img src="images\markets..svg" alt="markets" class="card__icon card__icon-lr">
+                                </div>
+                                <p class="card__text card__text-products">Продажи на маркетплейсах</p>
+                                <p class="card__text_desc">
+                                    Автоматизация продаж на универсальных маркетплейсах
+                                </p>
+                            </div>
+                            <div class="card__item card__item-products ">
+                                <div class="card__icon_wrapper card__icon_wrapper-products">
+                                    <img src="images\buy..svg" alt="buy" class="card__icon card__icon-lr">
+                                </div>
+                                <p class="card__text card__text-products">Интернет-магазин</p>
+                                <p class="card__text_desc">
+                                    Автоматизация онлайн-продаж для вашего интернет-магазина
+                                </p>
+                            </div>
+                            <div class="card__item card__item-products ">
+                                <div class="card__icon_wrapper card__icon_wrapper-products">
+                                    <img src="images\cart..svg" alt="cart" class="card__icon card__icon-lr">
+                                </div>
+                                <p class="card__text card__text-products">Нишевые маркетплейсы</p>
+                                <p class="card__text_desc">
+                                    Управление собственным маркетплейсом
+                                </p>
+                            </div>
+                            <div class="card__item card__item-products ">
+                                <div class="card__icon_wrapper card__icon_wrapper-products">
+                                    <img src="images\search..svg" alt="search" class="card__icon card__icon-lr">
+                                </div>
+                                <p class="card__text card__text-products">Шина данных (ESB)</p>
+                                <p class="card__text_desc">
+                                    Управление обменом данных и интеграции
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="launch" class="launch">
+            <div class="container">
+                <div class="launch__inner">
+                    <div class="launch__text_wrapper">
+                        <h2 class="title ">Запустим проект
+                            <span class=" title-accent ">
+                                <span class=" title-accent ">быстро,</span>
+                                <span class=" title-accent launch__title-accent">эффективно, с
+                                    гарантией </span>
+                            </span>
+                        </h2>
+                    </div>
+                    <div class="cards cards-launch">
+                        <div class="card__item card__item-launch ">
+                            <div class="card__icon_wrapper card__icon_wrapper-launch">
+                                <img src="images\code..svg" alt="code" class="card__icon card__icon-sm">
+                            </div>
+                            <div class="cards__text_wrapper">
+                                <p class="card__text card__text-launch">Продажи на маркетплейсах</p>
+                                <p class="card__text_desc card__text_desc-launch">
+                                    Разработка и кастомизация готовых B2B- и B2C-решений на базе eCom платформы Кипу
+                                    под потребности бизнеса. Быстрый запуск MVP от 2-4 месяцев
+                                </p>
+                            </div>
+                        </div>
+                        <div class="card__item card__item-launch ">
+                            <div class="card__icon_wrapper card__icon_wrapper-launch">
+                                <img src="images\magnifier..svg" alt="magnifier" class="card__icon card__icon-sm">
+                            </div>
+                            <div class="cards__text_wrapper">
+                                <p class="card__text card__text-launch">Экспертиза</p>
+                                <p class="card__text_desc card__text_desc-launch">
+                                    Команда Кипу состоит из экспертов в области разработки eCom решений, практический
+                                    опыт каждого из членов команды составляет более 10 лет, а общая насмотренность
+                                    превышает 250 проектов
+                                </p>
+                            </div>
+                        </div>
+                        <div class="card__item card__item-launch ">
+                            <div class="card__icon_wrapper card__icon_wrapper-launch">
+                                <img src="images\glasses..svg" alt="glasses" class="card__icon card__icon-sm">
+                            </div>
+                            <div class="cards__text_wrapper">
+                                <p class="card__text card__text-launch">Методология</p>
+                                <p class="card__text_desc card__text_desc-launch">
+                                    Каждый наш проект начинается, прежде всего, с разработки бизнес-логики, на базе
+                                    которой строится ИТ-система. Расчет экономической модели проекта происходит уже на
+                                    этапе исследования
+                                </p>
+                            </div>
+                        </div>
+                        <div class="card__item card__item-launch ">
+                            <div class="card__icon_wrapper card__icon_wrapper-launch">
+                                <img src="images\team..svg" alt="team" class="card__icon card__icon-sm">
+                            </div>
+                            <div class="cards__text_wrapper">
+                                <p class="card__text card__text-launch">Команда</p>
+                                <p class="card__text_desc card__text_desc-launch">
+                                    Реализуем проекты любой сложности за счет горизонтального масштабирования ресурсов
+                                    разработки с помощью партнерской программы
+                                </p>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="launch__btn_wrapper">
+                        <button type="submit" class="launch__btn ">Обсудить ваш проект</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="tasks" class="tasks">
+            <div class="container">
+                <div class="tasks__inner">
+                    <div class="tasks__text_wrapper">
+                        <h2 class="title">
+                            <span class=" title-accent">
+                                Какие задачи
+                                <span class="title-accent"></span>
+                            </span>
+                            решаем
+                            <span class=" title-accent-tasks">в eCommerce</span>
+                        </h2>
+                    </div>
+                    <div class="tasks__cards">
+                        <div class="tasks__card_item">
+                            Автоматизация бизнес-процессов
+                        </div>
+                        <div class="tasks__card_item">
+                            Создание B2B-портала
+                        </div>
+                        <div class="tasks__card_item">
+                            Разработка интернет-магазина
+                        </div>
+                        <div class="tasks__card_item">
+                            Управление товарными данными
+                        </div>
+                        <div class="tasks__card_item">
+                            Маркетинговые активности
+                        </div>
+                        <div class="tasks__card_item">
+                            Интеграция с маркетплейсами
+                        </div>
+                        <div class="tasks__card_item">
+                            Медиа-контент
+                        </div>
+                        <div class="tasks__card_item">
+                            Управление отзывами
+                        </div>
+                        <div class="tasks__card_item">
+                            Работа с заказами
+                        </div>
+                        <div class="tasks__card_item">
+                            Доставка и возвраты
+                        </div>
+                        <div class="tasks__card_item">
+                            Остатки и ценообразование
+                        </div>
+                        <div class="tasks__card_item">
+                            Взаимоотношения с клиентами
+                        </div>
+                        <div class="tasks__card_item">
+                            Аналитика
+                        </div>
+                        <div class="tasks__card_item">
+                            Нишевые маркетплейсы
+                        </div>
+                        <div class="tasks__card_item">
+                            Обмен данными
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="reasons" class="reasons">
+            <div class="container">
+                <div class="reasons__inner">
+                    <div class="tasks__text_wrapper">
+                        <h2 class="title">Почему
+                            <span class=" title-accent">
+                                Мы
+                            </span>
+                        </h2>
+
+                        <ul class="reasons__lists">
+                            <li class="reasons__item active">Ключевые преимущества</li>
+                            <li class="reasons__item">Специально для eCommerce</li>
+                            <li class="reasons__item">3 вида преимуществ</li>
+                        </ul>
+                    </div>
+
+                    <div class="cards cards-reasons">
+                        <div class="card__item card__item-reasons">
+                            <div class="card__icon_wrapper card__icon_wrapper-reasons">
+                                <img src="images\castle..svg" alt="castle" class="card__icon card__icon-sm">
+                            </div>
+                            <div class="cards__text_wrapper">
+                                <p class="card__text card__text-reasons">Российское ПО</p>
+                                <p class="card__text_desc card__text_desc-reasons">
+                                    Свидетельство о регистрации Минцифры № АО-20221221-11257705008-3
+                                </p>
+                            </div>
+                        </div>
+                        <div class="card__item card__item-reasons">
+                            <div class="card__icon_wrapper card__icon_wrapper-reasons">
+                                <img src="images\diagramm..svg" alt="diagramm" class="card__icon card__icon-sm">
+                            </div>
+                            <div class="cards__text_wrapper">
+                                <p class="card__text card__text-reasons">Бизнес-консалтинг</p>
+                                <p class="card__text_desc card__text_desc-reasons">
+                                    Экономическая эффективность проектов
+                                </p>
+                            </div>
+                        </div>
+                        <div class="card__item card__item-reasons">
+                            <div class="card__icon_wrapper card__icon_wrapper-reasons">
+                                <img src="images\notepad..svg" alt="notepad" class="card__icon card__icon-sm">
+                            </div>
+                            <div class="cards__text_wrapper">
+                                <p class="card__text card__text-reasons">Онбординг и документация</p>
+                                <p class="card__text_desc card__text_desc-reasons">
+                                    Инструменты для успешного старта работ
+                                </p>
+                            </div>
+                        </div>
+                        <div class="card__item card__item-reasons">
+                            <div class="card__icon_wrapper card__icon_wrapper-reasons">
+                                <img src="images\headphones..svg" alt="headphones"
+                                    class="card__icon card__icon-sm">
+                            </div>
+                            <div class="cards__text_wrapper">
+                                <p class="card__text card__text-reasons">Техническая поддержка 24/7</p>
+                                <p class="card__text_desc card__text_desc-reasons">
+                                    Обеспечение бесперебойной работы системы
+                                </p>
+                            </div>
+                        </div>
+                        <div class="card__item card__item-reasons">
+                            <div class="card__icon_wrapper card__icon_wrapper-reasons">
+                                <img src="images\time..svg" alt="time" class="card__icon card__icon-sm">
+                            </div>
+                            <div class="cards__text_wrapper">
+                                <p class="card__text card__text-reasons">Скорость работы</p>
+                                <p class="card__text_desc card__text_desc-reasons">
+                                    Моментальная загрузка страниц с любым количество SKU
+                                </p>
+                            </div>
+                        </div>
+                        <div class="card__item card__item-reasons">
+                            <div class="card__icon_wrapper card__icon_wrapper-reasons">
+                                <img src="images\todo..svg" alt="todo" class="card__icon card__icon-sm">
+                            </div>
+                            <div class="cards__text_wrapper">
+                                <p class="card__text card__text-reasons">Актуальность и развитие</p>
+                                <p class="card__text_desc card__text_desc-reasons">
+                                    Улучшение функциональности, обеспечение безопасности, устранение ошибок
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="banner banner-mb">
+            <div class="container">
+                <div class="banner__inner">
+                    <div class="banner__title_wrapper">
+                        <h2 class="banner__title">
+                            Новые eCom тренды и инструменты для развития бизнеса
+                        </h2>
+                        <p class="banner__desc">Персональная эксперт-сессия</p>
+                    </div>
+                    <div class="bunner__wrapper">
+                        <button type="submit" class="bunner__btn ">Получить бесплатно</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="partners" class="partners">
+            <div class="container">
+                <div class="partners__inner">
+                    <div class="partners__text_wrapper">
+                        <h2 class="title">С нами
+                            <span class=" title-accent">
+                                работают
+                            </span>
+                        </h2>
+                    </div>
+                    <div class="partners__lists">
+                        <div class="partners__item">
+                            <img class="partners__img" src="images\crown..svg" alt="crown">
+                            <img class="partners__img-hower" src="images\crown-hw..svg" alt="crown">
+                        </div>
+                        <div class="partners__item">
+                            <img class="partners__img" src="images\expert..svg" alt="crown">
+                            <img class="partners__img-hower" src="images\expert-hw..svg" alt="crown">
+                        </div>
+                        <div class="partners__item">
+                            <img class="partners__img" src="images\alter..svg" alt="crown">
+                            <img class="partners__img-hower" src="images\alter-hw..svg  " alt="crown">
+                        </div>
+                        <div class="partners__item">
+                            <img class="partners__img" src="images\agro..svg" alt="crown">
+                            <img class="partners__img-hower" src="images\agro-hw..svg" alt="crown">
+                        </div>
+                        <div class="partners__item">
+                            <img class="partners__img" src="images\olimp..svg" alt="crown">
+                            <img class="partners__img-hower" src="images\olimp-hw..svg" alt="crown">
+                        </div>
+                        <div class="partners__item">
+                            <img class="partners__img" src="images\modul..svg" alt="crown">
+                            <img class="partners__img-hower" src="images\modul-hw..svg" alt="crown">
+                        </div>
+                    </div>
+                    <div class="platform__slider slider-partners">
+                        <div class="platform__dots">
+                            <span class="  partners__dot ">
+                                <span class="platform__dot_data"></span>
+                            </span>
+                            <span class="platform__dot">
+                                <span class="platform__dot_data"></span>
+                            </span>
+                            <span class="platform__dot">
+                                <span class="platform__dot_data"></span>
+                            </span>
+                            <span class="platform__dot">
+                                <span class="platform__dot_data"></span>
+                            </span>
+                            <span class="platform__dot">
+                                <span class="platform__dot_data"></span>
+                            </span>
+                            <span class="platform__dot">
+                                <span class="platform__dot_data"></span>
+                            </span>
+                            <span class="platform__dot">
+                                <span class="platform__dot_data"></span>
+                            </span><span class="platform__dot">
+                                <span class="platform__dot_data"></span>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="banner banner-emblem">
+            <div class="container">
+                <div class="banner__inner banner-emblem-bg">
+                    <div class="banner__text_wrapper">
+                        <h2 class="banner__title">Участник реестра аккредитованных ИТ-компаний</h2>
+                        <p class="banner__desc">eCom платформа является участником реестра аккредитованных ИТ-компаний
+                        </p>
+                        <div class="banner__info_wrapper">
+                            <span class="banner__icon">
+                                <img class="banner__icon_img" src="images\qr..svg" alt="qrcode">
+                            </span>
+                            <span class="banner__info">Свидетельство о регистрации Минцифры
+                                ФФ-11222333-444555666-7</span>
+                        </div>
+                    </div>
+                    <div class="banner__visual_wrapper">
+                        <img src="images\emblem..png" alt="emblem" class="banner__img">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="blog" class="blog">
+            <div class="container">
+                <div class="blog__inner">
+                    <div class="blog__lists">
+                        <div class="blog__title_wrapper">
+                            <h3 class="title blog__title">Наш блог</h3>
+                            <a href="#" class="blog__link">Все статьи</a>
+                        </div>
+                        <div class="blog__item">Как создать крупный интернет-проект с масштабными задачами — 3 этапа
+                        </div>
+                        <div class="blog__item">Как настроить управлением рабочим местом пользователя</div>
+                        <div class="blog__item">Топ-5 преимуществ IP-телефонии</div>
+                        <div class="blog__item">Шина для обмена данных – что это такое и как работает</div>
+                    </div>
+                    <div class="blog__lists">
+                        <div class="blog__title_wrapper">
+                            <h3 class="title blog__title">Пресса о нас</h3>
+                        </div>
+                        <div class="blog__links">
+                            <span class="blog__social">
+                                <img class="blog__social_icon" src="images\TechCrunch..svg" alt="social-icon">
+                            </span>
+                            <span class="blog__social">
+                                <img class="blog__social_icon" src="images\vk..svg" alt="social-icon">
+                            </span>
+                            <span class="blog__social blog__social-big">
+                                <img class="blog__social_icon" src="images\rbk..svg" alt="social-icon">
+                            </span>
+                            <span class="blog__social">
+                                <img class="blog__social_icon" src="images\forbes..svg" alt="social-icon">
+                            </span>
+                            <span class="blog__social">
+                                <img class="blog__social_icon" src="images\bbc..svg" alt="social-icon">
+                            </span>
+                        </div>
+                        <div class="blog__item blog__item-center">Лучший молодежный IT стартап-проект, который выстрелил
+                            на весь интернет</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div id="modal" class="modal">
+            <div class="modal__content">
+                <button id="closeModal"></button>
+                <h2 class="title modal__title">Свяжитесь с нами</h2>
+                <form class="modal__form">
+                    <input class="modal__input" type="text" id="name" placeholder="Имя">
+                    <input class="modal__input" type="tel" id="phone" placeholder="Телефон">
+                    <input class="modal__input" type="email" id="email" placeholder="Email">
+                    <button class="about__btn" id="send">Отправить</button>
+                    <p class="modal__policy">Нажимая «Отправить» вы соглашаетесь с <a
+                            href="https://en.wikipedia.org/wiki/Privacy_policy" target="_blank">Политикой
+                            конфиденциальности</a>
+                    </p>
+                </form>
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__inner">
+                <div class="footer__lists">
+                    <div class="footer__list">
+                        <a href="#" class="footer__logo">
+                            <img class="footer__logo-pic" src="images\logo-footer..svg" alt="logo">
+                        </a>
+                    </div>
+                    <div class="footer__list">
+                        <a href="#products" class="footer__link">Продукты</a>
+                        <a href="#" class="footer__link footer__link-opacity">Продажи на маркетплейсах</a>
+                        <a href="#reasons" class="footer__link footer__link-opacity">Интернет-магазин</a>
+                        <a href="#launch" class="footer__link footer__link-opacity">Нишевые маркетплейсы</a>
+                        <a href="#tasks" class="footer__link footer__link-opacity">Шина данных</a>
+                    </div>
+                    <div class="footer__list_wrapper">
+                        <div class="footer__list">
+                            <a href="#products" class="footer__link">Продукты</a>
+                            <a href="#cases" class="footer__link">Кейсы</a>
+                            <a href="#reasons" class="footer__link">Партнерам</a>
+                        </div>
+                        <div class="footer__list">
+                            <a href="#blog" class="footer__link">Блог</a>
+                            <a href="#about" class="footer__link">О компании</a>
+                            <a href="#contacts" class="footer__link">Контакты</a>
+                        </div>
+                    </div>
+                    <div id="contacts" class="footer__list">
+                        <a href="tel:+76667772211" class="footer__link">+7 666 777 22 11</a>
+                        <a href="mailto:test@mail.ru" class="footer__link footer__link-opacity">test@mail.ru</a>
+                    </div>
+                </div>
+                <div class="footer__copy_right">
+                    <div class="footer__desc_wrapper">
+                        <span class="footer__desc">Политика конфиденциальности</span>
+                        <span class="footer__desc">Макет для проекта Сделан в <span
+                                class="footer__desc_accent">deus</span> </span>
+                    </div>
+                    <span class="footer__desc">Фронтенд частью проекта занимался я ,<a
+                            href="https://github.com/MamedovShuxrat" target="_blank" class="footer__desc_accent">Мамедов
+                            Шухрат </a> , с целью
+                        продемонстрировать мои навыки и знания в области веб-разработки. Сайт предназначен для
+                        ознакомления работодателя с моими способностями и подходом к созданию веб-приложений.</span>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>

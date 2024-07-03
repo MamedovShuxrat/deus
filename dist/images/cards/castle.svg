@@ -1,0 +1,45 @@
+<svg width="46.000000" height="46.000000" viewBox="0 0 46 46" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<desc>
+			Created with Pixso.
+	</desc>
+	<defs>
+		<filter id="filter_26_2418_dd" x="3.833984" y="3.832031" width="38.333984" height="38.333984" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+			<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+			<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+			<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+			<feOffset dx="1" dy="1"/>
+			<feGaussianBlur stdDeviation="0.666667"/>
+			<feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
+			<feColorMatrix type="matrix" values="0 0 0 0 0.53333 0 0 0 0 0.64706 0 0 0 0 0.74902 0 0 0 0.6 0"/>
+			<feBlend mode="normal" in2="shape" result="effect_innerShadow_1"/>
+			<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+			<feOffset dx="-1" dy="-2"/>
+			<feGaussianBlur stdDeviation="0.666667"/>
+			<feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
+			<feColorMatrix type="matrix" values="0 0 0 0 0.53333 0 0 0 0 0.64706 0 0 0 0 0.74902 0 0 0 0.3 0"/>
+			<feBlend mode="normal" in2="effect_innerShadow_1" result="effect_innerShadow_2"/>
+			<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+			<feOffset dx="-1" dy="-2"/>
+			<feGaussianBlur stdDeviation="1"/>
+			<feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
+			<feColorMatrix type="matrix" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0.4 0"/>
+			<feBlend mode="normal" in2="effect_innerShadow_2" result="effect_innerShadow_3"/>
+		</filter>
+		<filter id="filter_26_2419_dd" x="14.376953" y="9.582031" width="17.250000" height="21.083984" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+			<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+			<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+			<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+			<feOffset dx="1.35294" dy="1.35294"/>
+			<feGaussianBlur stdDeviation="0.45098"/>
+			<feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
+			<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0.36863 0 0 0 0 0.74118 0 0 0 0.5 0"/>
+			<feBlend mode="normal" in2="shape" result="effect_innerShadow_1"/>
+		</filter>
+	</defs>
+	<g filter="url(#filter_26_2418_dd)">
+		<path d="M4.46 8.21C4.64 6.63 5.6 5.33 7.15 4.99C9.57 4.45 14.26 3.83 23 3.83C31.73 3.83 36.42 4.45 38.84 4.99C40.4 5.33 41.35 6.63 41.54 8.21C41.81 10.6 42.16 14.53 42.16 19.16C42.16 27.81 37.6 35.91 29.9 39.87C27.33 41.19 24.83 42.16 23 42.16C21.17 42.16 18.66 41.19 16.09 39.87C8.4 35.91 3.83 27.81 3.83 19.16C3.83 14.53 4.18 10.6 4.46 8.21Z" fill="#ACB4C9" fill-opacity="1.000000" fill-rule="evenodd"/>
+	</g>
+	<g filter="url(#filter_26_2419_dd)">
+		<path d="M17.48 14.85C17.61 11.9 20.04 9.58 23 9.58C25.95 9.58 28.38 11.9 28.51 14.85L28.63 17.43L28.76 17.44C30.3 17.57 31.39 18.64 31.5 20.18C31.57 21.09 31.62 22.31 31.62 23.95C31.62 25.59 31.57 26.82 31.5 27.72C31.39 29.26 30.3 30.33 28.76 30.46C27.52 30.57 25.68 30.66 23 30.66C20.31 30.66 18.47 30.57 17.23 30.46C15.69 30.33 14.61 29.26 14.49 27.72C14.42 26.82 14.37 25.59 14.37 23.95C14.37 22.45 14.41 21.3 14.46 20.42C14.56 18.76 15.71 17.58 17.36 17.43L17.48 14.85ZM24.68 15.03L24.78 17.26C24.24 17.25 23.64 17.24 23 17.24C22.35 17.24 21.76 17.25 21.21 17.26L21.31 15.03C21.35 14.12 22.09 13.41 23 13.41C23.9 13.41 24.65 14.12 24.68 15.03ZM24.91 22.99C24.91 23.78 24.44 24.45 23.77 24.75L23.91 25.95C23.94 26.25 23.89 26.57 23.62 26.7C23.48 26.77 23.27 26.83 23 26.83C22.72 26.83 22.52 26.77 22.37 26.7C22.1 26.57 22.06 26.25 22.09 25.95L22.23 24.75C21.55 24.45 21.08 23.78 21.08 22.99C21.08 21.93 21.94 21.08 23 21.08C24.06 21.08 24.91 21.93 24.91 22.99Z" fill="#576684" fill-opacity="1.000000" fill-rule="evenodd"/>
+	</g>
+</svg>
