@@ -180,3 +180,45 @@
     box-shadow: 3px 3px 17px 0px rgba(210, 218, 227, 0.8), 2px 2px 3px 0px rgba(210, 218, 227, 0.3), -7px -7px 14px 0px rgb(255, 255, 255), -1px -1px 4px 0px rgba(255, 255, 255, 0.8);
     background: rgb(239, 241, 247);
 }
+
+
+@media (max-width: 1220px) {
+    .cards-cases {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .card__item-column {
+        width: calc(50% - 25px);
+    }
+
+    .cards-products {
+        justify-content: center;
+    }
+}
+
+@media (max-width: 990px) {
+
+    .card__item-products {
+        width: calc(50% - 20px);
+    }
+
+    .cards-launch {
+        gap: 30px;
+    }
+
+    .card__item-launch {
+        gap: 10px;
+    }
+
+    .cards-reasons {
+        justify-content: center;
+    }
+
+    .card__item-reasons {
+        width: calc(50% - 20px);
+    }
+}
+
+
+@media (max-width: 768px) {}

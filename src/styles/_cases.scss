@@ -1,3 +1,21 @@
 .cases__inner {
     padding: 150px 0;
 }
+
+@media (max-width: 1220px) {
+    .cases__inner {
+        padding: 120px 0;
+    }
+}
+
+@media (max-width: 990px) {
+    .cases__inner {
+        padding: 100px 0;
+    }
+}
+
+@media (max-width: 768px) {
+    .cases__inner {
+        padding: 50px 0;
+    }
+}

@@ -1,7 +1,7 @@
 @import "styles/varibales.scss";
 @import "styles/header.scss";
 @import "styles/nav.scss";
-@import "styles/about.scss";
+@import "styles/_about.scss";
 @import "styles/sliderBtns.scss";
 @import "styles/platform.scss";
 @import "styles/cases.scss";
@@ -12,8 +12,8 @@
 @import "styles/tasks.scss";
 @import "styles/reasons.scss";
 @import "styles/partners.scss";
-
-
+@import "styles/blog.scss";
+@import "styles/modal.scss";
 @import "styles/footer.scss";
 
 
@@ -27,6 +27,7 @@
 body {
     font-family: $primary-fonts;
     color: $primary-color;
+    position: relative;
 }
 
 html {
@@ -50,11 +51,10 @@ a {
     width: 100%;
     margin: 0 auto;
     padding: 0 15px;
-    border: 1px solid red;
 }
 
 .title {
-    font-size: 50px;
+    @include responsive-font-title;
     font-weight: 700;
     line-height: 120%;
     color: $second-color;
@@ -71,3 +71,10 @@ a {
     text-fill-color:
         transparent;
 }
+
+@media (max-width: 1220px) {}
+
+@media (max-width: 990px) {}
+
+
+@media (max-width: 768px) {}

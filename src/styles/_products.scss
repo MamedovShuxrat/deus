@@ -30,3 +30,37 @@
 .products__cards_wrapper {
     width: 60%;
 }
+
+@media (max-width: 1220px) {
+    .products {
+        padding: 100px 0;
+    }
+
+    .products__inner {
+        padding: 40px;
+    }
+}
+
+@media (max-width: 990px) {
+    .products {
+        padding: 80px 0;
+    }
+
+    .products__inner {
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+
+    .products__text_wrapper,
+    .products__cards_wrapper {
+        width: 100%;
+        text-align: center;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .products {
+        padding: 50px 0;
+    }
+}

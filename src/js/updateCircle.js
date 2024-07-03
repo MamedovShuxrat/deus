@@ -67,3 +67,5 @@ document.getElementById('right-btn-pr').addEventListener('click', () => {
     console.log('Right button clicked!');
     moveSlider('right');
 });
+
+

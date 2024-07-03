@@ -1,0 +1,18 @@
+<svg width="42.000000" height="21.000000" viewBox="0 0 42 21" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<desc>
+			Created with Pixso.
+	</desc>
+	<defs>
+		<clipPath id="clip5504_28294">
+			<rect id="TechCrunch_logo" width="42.000000" height="21.000000" fill="white" fill-opacity="0"/>
+		</clipPath>
+	</defs>
+	<g opacity="0.500000">
+		<rect id="TechCrunch_logo" width="42.000000" height="21.000000" fill="#FFFFFF" fill-opacity="0"/>
+		<g clip-path="url(#clip5504_28294)">
+			<path id="Vector" d="M21 0L21 7L14 7L14 21L7 21L7 7L0 7L0 0L21 0Z" fill="#0A9E01" fill-opacity="1.000000" fill-rule="nonzero"/>
+			<path id="Vector" d="M28 0L42 0L42 7L28 7L28 0Z" fill="#0A9E01" fill-opacity="1.000000" fill-rule="evenodd"/>
+			<path id="Vector" d="M42 14L42 21L21 21L21 7L28 7L28 14L42 14Z" fill="#0A9E01" fill-opacity="1.000000" fill-rule="nonzero"/>
+		</g>
+	</g>
+</svg>

@@ -41,3 +41,32 @@
 .partners__dot {
     background: conic-gradient(rgb(57, 199, 236) 0%, rgb(57, 199, 236) 20%, rgb(255, 255, 255) 20%);
 }
+
+@media (max-width: 1220px) {
+    .partners {
+        padding-top: 100px;
+    }
+}
+
+@media (max-width: 990px) {
+    .partners {
+        padding-top: 80px;
+    }
+
+    .partners__inner {
+        text-align: center;
+    }
+
+    .partners__item {
+        width: calc(50% - 20px);
+    }
+}
+
+
+@media (max-width: 768px) {
+    .partners {
+        padding-top: 50px;
+    }
+
+
+}

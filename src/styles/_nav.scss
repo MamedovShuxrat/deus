@@ -1,11 +1,17 @@
 .nav {
-    margin-left: auto;
+    margin-left: 50px;
 }
 
 .nav__lists {
     display: flex;
     align-items: center;
     column-gap: 40px;
+}
+
+.nav__item_wrapper {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
 }
 
 .nav__item {
@@ -30,8 +36,8 @@
 }
 
 .nav__link {
+    @include responsive-font-size;
     color: $second-color;
-    font-size: 16px;
     font-weight: 700;
     line-height: 100%;
 
@@ -50,7 +56,6 @@
     height: 24px;
     cursor: pointer;
     transition: all .3s ease-in-out;
-    // transform: rotate(180deg);
 }
 
 .nav__btn {
@@ -60,7 +65,7 @@
     border: none;
     cursor: pointer;
     color: $primary-color;
-    font-size: 16px;
+    @include responsive-font-size;
     font-weight: 700;
     line-height: 100%;
 
@@ -74,8 +79,8 @@
     }
 }
 
-.nav__item-products {
-    position: relative;
+.nav__link {
+    text-wrap: nowrap;
 }
 
 .nav__sublist {
@@ -85,7 +90,7 @@
 
     position: absolute;
     top: 90px;
-    left: -400px;
+    left: 0;
     border: 1px solid rgb(213, 221, 229);
     border-radius: 40px;
 
@@ -93,8 +98,8 @@
 }
 
 .nav__sublist_title {
-    color: rgb(32, 32, 33);
-    font-size: 16px;
+    color: $second-color;
+    @include responsive-font-size;
     font-weight: 700;
     line-height: 120%;
     margin-bottom: 10px;
@@ -103,14 +108,14 @@
 }
 
 .nav__sublist_text {
-    color: rgb(32, 32, 33);
-    font-size: 16px;
+    color: $second-color;
+    @include responsive-font-size;
     font-weight: 400;
     line-height: 140%;
 }
 
 .nav__sub-item {
-    width: 320px;
+    width: 25%;
     padding: 20px;
     border-radius: 20px;
 
@@ -130,5 +135,54 @@
         3px 3px 10px 0px rgba(210, 218, 227, 0.5),
         -3px -3px 10px 0px rgb(255, 255, 255),
         -5px -5px 18px 0px rgba(255, 255, 255, 0.9);
+    }
+}
+
+@media (max-width: 1220px) {
+    .nav {
+        margin-left: 10px;
+    }
+
+    .nav__lists {
+        column-gap: 20px;
+    }
+
+    .nav__sublist {
+        padding: 30px;
+    }
+
+    .nav__btn {
+        padding: 15px;
+    }
+}
+
+@media (max-width: 990px) {
+    .nav__lists {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .nav__btn {
+        padding: 10px 20px;
+    }
+
+    .nav__sublist {
+        padding: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    .nav__sublist {
+        flex-wrap: wrap;
+        gap: 10px;
+        padding: 10px;
+    }
+
+    .nav__sub-item {
+        width: calc(50% - 10px);
+    }
+
+    .nav {
+        display: none;
     }
 }

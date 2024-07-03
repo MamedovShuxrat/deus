@@ -42,3 +42,31 @@
     }
 
 }
+
+@media (max-width: 1220px) {
+    .reasons {
+        padding: 120px 0 120px;
+    }
+}
+
+@media (max-width: 990px) {
+    .reasons {
+        padding: 100px 0;
+    }
+
+    .tasks__text_wrapper {
+        text-align: center;
+    }
+
+    .reasons__lists {
+        justify-content: center;
+        margin: 25px 0;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .reasons {
+        padding: 50px 0;
+    }
+}
