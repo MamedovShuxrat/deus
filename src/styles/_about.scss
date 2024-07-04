@@ -94,6 +94,7 @@
 
     .about__inner {
         flex-wrap: wrap;
+        justify-content: center;
     }
 
     .about__context {
@@ -104,6 +105,7 @@
 
     .about__desc {
         margin-bottom: 20px;
+        font-size: 22px;
     }
 
     .about__visual {

@@ -204,3 +204,38 @@
         width: 100%;
     }
 }
+
+@media (max-width: 768px) {
+    .platform__info {
+        font-size: 24px;
+    }
+
+    .platform__visual {
+        padding: 30px;
+    }
+}
+
+@media (max-width: 575px) {
+    // .platform__circle {
+    //     min-width: 230px;
+    //     min-height: 230px;
+    // }
+
+    // .platform__circle_inner {
+    //     min-width: 180px;
+    //     min-height: 180px;
+    // }
+    .platform__title-accent {
+        font-size: 22px;
+        margin-top: 20px;
+    }
+
+    .platform__info {
+        font-size: 18px;
+        padding-top: 20px;
+    }
+
+    .platform__info-accent {
+        font-size: 20px;
+    }
+}

@@ -104,3 +104,10 @@
         flex-direction: column;
     }
 }
+
+@media (max-width: 575px) {
+    .footer__lists {
+        justify-content: center;
+        padding-bottom: 40px;
+    }
+}
