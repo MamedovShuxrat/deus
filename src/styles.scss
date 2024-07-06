@@ -1,7 +1,7 @@
 @import "styles/varibales.scss";
 @import "styles/header.scss";
 @import "styles/nav.scss";
-@import "styles/_about.scss";
+@import "styles/about.scss";
 @import "styles/sliderBtns.scss";
 @import "styles/platform.scss";
 @import "styles/cases.scss";
@@ -50,6 +50,7 @@ a {
     max-width: 1520px;
     width: 100%;
     margin: 0 auto;
+    padding: 0 5px;
 }
 
 
@@ -72,10 +73,6 @@ a {
     text-fill-color:
         transparent;
 }
-
-@media (max-width: 1220px) {}
-
-@media (max-width: 990px) {}
 
 
 @media (max-width: 768px) {

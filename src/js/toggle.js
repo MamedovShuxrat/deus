@@ -18,16 +18,7 @@ navItems.forEach((navItem) => {
 });
 
 
-const reasonsItems = document.querySelectorAll('.reasons__item');
 
-reasonsItems.forEach(item => {
-    item.addEventListener('click', () => {
-        reasonsItems.forEach(otherItem => {
-            otherItem.classList.remove('active');
-        });
-        item.classList.add('active');
-    });
-});
 
 mobileBtn.addEventListener('click', () => {
     mobileBtn.classList.toggle('isOpen')

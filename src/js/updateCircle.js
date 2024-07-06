@@ -59,12 +59,10 @@ function moveSlider(direction) {
 }
 
 document.getElementById('left-btn-pr').addEventListener('click', () => {
-    console.log('Left button clicked!');
     moveSlider('left');
 });
 
 document.getElementById('right-btn-pr').addEventListener('click', () => {
-    console.log('Right button clicked!');
     moveSlider('right');
 });
 

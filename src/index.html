@@ -120,10 +120,10 @@
                         <p class="about__desc">Краткое описание УТП продукта, максимально две строки текста</p>
                         <button type="submit" class="btn about__btn openModal">Смотреть решение</button>
                         <div class="slider__btn_wrapper slider__btn_wrapper-about">
-                            <button type="submit" class="slider__btn  ">
+                            <button type="submit" class="slider__btn " id="left-btn-about">
                                 <span class="slider__btn-left"></span>
                             </button>
-                            <button type="submit" class="slider__btn   ">
+                            <button type="submit" class="slider__btn " id="right-btn-about">
                                 <span class="slider__btn-right"></span>
                             </button>
 
@@ -422,14 +422,14 @@
                         </h2>
 
                         <ul class="reasons__lists">
-                            <li class="reasons__item active">Ключевые преимущества</li>
-                            <li class="reasons__item">Специально для eCommerce</li>
-                            <li class="reasons__item">3 вида преимуществ</li>
+                            <li class="reasons__item active" data-category="keyBenefits">Ключевые преимущества</li>
+                            <li class="reasons__item" data-category="eCommerceSpecial">Специально для eCommerce</li>
+                            <li class="reasons__item" data-category="threeTypesOfAdvantages">3 вида преимуществ</li>
                         </ul>
                     </div>
 
-                    <div class="cards cards-reasons">
-                        <div class="card__item card__item-reasons">
+                    <div class="cards cards-reasons" id="cardsContainer">
+                        <!-- <div class="card__item card__item-reasons">
                             <div class="card__icon_wrapper card__icon_wrapper-reasons card__icon_wrapper-mb">
                                 <img src="images/cards/castle.svg" alt="castle" class="card__icon card__icon-sm">
                             </div>
@@ -439,8 +439,8 @@
                                     Свидетельство о регистрации Минцифры № АО-20221221-11257705008-3
                                 </p>
                             </div>
-                        </div>
-                        <div class="card__item card__item-reasons">
+                        </div> -->
+                        <!-- <div class="card__item card__item-reasons">
                             <div class="card__icon_wrapper card__icon_wrapper-reasons card__icon_wrapper-mb">
                                 <img src="images/cards/diagramm.svg" alt="diagramm" class="card__icon card__icon-sm">
                             </div>
@@ -495,7 +495,7 @@
                                     Улучшение функциональности, обеспечение безопасности, устранение ошибок
                                 </p>
                             </div>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
             </div>
