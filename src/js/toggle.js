@@ -1,5 +1,6 @@
 const navItems = document.querySelectorAll('.nav__item');
-
+const mobileBtn = document.querySelector('.mobile__btn')
+const mobileDisplay = document.querySelector('.mobile')
 
 navItems.forEach((navItem) => {
     const navLinkArrow = navItem.querySelector('.nav__link-arrow');
@@ -27,3 +28,13 @@ reasonsItems.forEach(item => {
         item.classList.add('active');
     });
 });
+
+mobileBtn.addEventListener('click', () => {
+    mobileBtn.classList.toggle('isOpen')
+    if (mobileBtn.classList.contains('isOpen')) {
+        mobileDisplay.style.display = 'block'
+    } else {
+        mobileDisplay.style.display = 'none'
+
+    }
+})

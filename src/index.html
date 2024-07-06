@@ -12,7 +12,7 @@
         <div class="container">
             <div class="header__inner">
                 <div class="header__lists">
-                    <a href="#" class="header__logo">
+                    <a href="#https://deus.team/" target="_blank" class="header__logo">
                         <img class="header__logo-pic" src="images/logo.svg" alt="logo">
                     </a>
                 </div>
@@ -78,8 +78,35 @@
                         </div>
                     </ul>
                 </nav>
-                <div class="nav__lists-btn">
-                    <button id="openModal" type="submit" class="btn nav__btn ">Свяжитесь с нами</button>
+                <button class="mobile__btn"></button>
+                <div class="mobile">
+                    <div class="mobile__lists ">
+                        <div class="mobile__list">
+                            <a href="#products" class="mobile__link mobile__title">Продукты</a>
+                            <a href="#products" class=" mobile__link ">Продажи на маркетплейсах</a>
+                            <a href="#reasons" class="mobile__link">Интернет-магазин</a>
+                            <a href="#launch" class="mobile__link">Нишевые маркетплейсы</a>
+                            <a href="#tasks" class="mobile__link">Шина данных</a>
+                        </div>
+                        <div class="mobile__list_wrapper">
+                            <div class="mobile__list">
+                                <a href="#products" class="mobile__link">Продукты</a>
+                                <a href="#cases" class="mobile__link">Кейсы</a>
+                                <a href="#reasons" class="mobile__link">Партнерам</a>
+                            </div>
+                            <div class="mobile__list">
+                                <a href="#blog" class="mobile__link">Блог</a>
+                                <a href="#about" class="mobile__link">О компании</a>
+                                <a href="#contacts" class="mobile__link">Контакты</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="nav__lists-btn">
+                        <button type="submit" class="btn nav__btn openModal">Свяжитесь с нами</button>
+                    </div>
+                </div>
+                <div class="nav__lists-btn nav__lists-btn-display">
+                    <button type="submit" class="btn nav__btn openModal">Свяжитесь с нами</button>
                 </div>
             </div>
         </div>
@@ -91,7 +118,7 @@
                     <div class="about__context">
                         <h1 class="title about__title">Заголовок для слайдера</h1>
                         <p class="about__desc">Краткое описание УТП продукта, максимально две строки текста</p>
-                        <button type="submit" class="btn about__btn">Смотреть решение</button>
+                        <button type="submit" class="btn about__btn openModal">Смотреть решение</button>
                         <div class="slider__btn_wrapper slider__btn_wrapper-about">
                             <button type="submit" class="slider__btn  ">
                                 <span class="slider__btn-left"></span>
@@ -103,7 +130,7 @@
                         </div>
                     </div>
                     <div class="about__visual">
-                        <img src="images/about-bg2.png" alt="about" class="about__img">
+                        <img src="images/about-bg1.png" alt="about" class="about__img">
                     </div>
                 </div>
             </div>
@@ -192,7 +219,7 @@
                         <p class="banner__desc">Персональная эксперт-сессия</p>
                     </div>
                     <div class="bunner__wrapper">
-                        <button type="submit" class="btn bunner__btn ">Получить бесплатно</button>
+                        <button type="submit" class="btn bunner__btn openModal">Получить бесплатно</button>
                     </div>
                 </div>
             </div>
@@ -316,7 +343,7 @@
                     </div>
 
                     <div class="launch__btn_wrapper">
-                        <button type="submit" class="btn launch__btn ">Обсудить ваш проект</button>
+                        <button type="submit" class="btn launch__btn openModal">Обсудить ваш проект</button>
                     </div>
                 </div>
             </div>
@@ -483,7 +510,7 @@
                         <p class="banner__desc">Персональная эксперт-сессия</p>
                     </div>
                     <div class="bunner__wrapper">
-                        <button type="submit" class="btn bunner__btn ">Получить бесплатно</button>
+                        <button type="submit" class="btn bunner__btn openModal">Получить бесплатно</button>
                     </div>
                 </div>
             </div>
@@ -621,10 +648,10 @@
                 <button id="closeModal"></button>
                 <h2 class="title modal__title">Свяжитесь с нами</h2>
                 <form class="modal__form">
-                    <input class="modal__input" type="text" id="name" placeholder="Имя">
-                    <input class="modal__input" type="tel" id="phone" placeholder="Телефон">
-                    <input class="modal__input" type="email" id="email" placeholder="Email">
-                    <button class="btn about__btn" id="send">Отправить</button>
+                    <input class="modal__input" type="text" id="name" placeholder="Имя" required>
+                    <input class="modal__input" type="tel" id="phone" placeholder="Телефон" required>
+                    <input class="modal__input" type="email" id="email" placeholder="Email" required>
+                    <button class="btn about__btn " id="send">Отправить</button>
                     <p class="modal__policy">Нажимая «Отправить» вы соглашаетесь с <a
                             href="https://en.wikipedia.org/wiki/Privacy_policy" target="_blank">Политикой
                             конфиденциальности</a>
@@ -638,7 +665,7 @@
             <div class="footer__inner">
                 <div class="footer__lists">
                     <div class="footer__list">
-                        <a href="#" class="footer__logo">
+                        <a href="#https://deus.team/" target="_blank" class="footer__logo">
                             <img class="footer__logo-pic" src="images/logo-footer.svg" alt="logo">
                         </a>
                     </div>
@@ -669,8 +696,8 @@
                 <div class="footer__copy_right">
                     <div class="footer__desc_wrapper">
                         <span class="footer__desc">Политика конфиденциальности</span>
-                        <span class="footer__desc">Макет для проекта Сделан в <span
-                                class="footer__desc_accent">deus</span> </span>
+                        <span class="footer__desc">Макет для проекта Сделан в <a href="https://deus.team/"
+                                target="_blank" class="footer__desc_accent">deus</ф> </span>
                     </div>
                     <span class="footer__desc">Фронтенд частью проекта занимался я , <a
                             href="https://github.com/MamedovShuxrat" target="_blank" class="footer__desc_accent">Мамедов

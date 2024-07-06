@@ -1,17 +1,44 @@
-const modal = document.getElementById("modal");
-const openModal = document.getElementById("openModal");
-const closeModal = document.getElementById("closeModal");
+document.addEventListener('DOMContentLoaded', () => {
+    const modal = document.getElementById("modal");
+    const openModalButtons = document.querySelectorAll(".openModal");
+    const closeModal = document.getElementById("closeModal");
 
-openModal.addEventListener("click", function () {
-    modal.style.display = "block";
-});
+    const form = document.querySelector('.modal__form');
+    const sendBtn = document.getElementById('send');
 
-closeModal.addEventListener("click", function () {
-    modal.style.display = "none";
-});
-
-window.addEventListener("click", function (event) {
-    if (event.target == modal) {
-        modal.style.display = "none";
+    if (!modal || !closeModal || !form || !sendBtn) {
+        console.error('Modal elements not found!');
+        return;
     }
+
+    sendBtn.addEventListener('click', (e) => {
+        e.preventDefault();
+        if (form.checkValidity()) {
+            modal.style.display = 'none';
+        } else {
+            alert('Заполните все поля');
+        }
+    });
+
+    openModalButtons.forEach(btn => {
+        btn.addEventListener('click', () => {
+            modal.style.display = "block";
+        });
+    });
+
+    closeModal.addEventListener("click", () => {
+        modal.style.display = "none";
+    });
+
+    window.addEventListener("click", (event) => {
+        if (event.target === modal) {
+            modal.style.display = "none";
+        }
+    });
+
+    window.addEventListener("keydown", (event) => {
+        if (event.key === "Escape") {
+            modal.style.display = "none";
+        }
+    });
 });
