@@ -1,35 +1,36 @@
 .launch {
     background: rgb(239, 241, 247);
     padding: 120px 0 100px;
-}
 
-.launch__text_wrapper {
-    margin-bottom: 60px;
-}
+    &__text_wrapper {
+        margin-bottom: 60px;
+    }
 
-.launch__title-accent {
-    display: block;
-}
+    &__title-accent {
+        display: block;
+    }
 
-.launch__btn {
-    margin-top: 90px;
-    padding: 20px 30px;
-    color: $primary-color;
-    @include responsive-font-size;
-    font-weight: 700;
-    line-height: 100%;
-    border-radius: 10px;
-    border: none;
-    cursor: pointer;
+    &__btn {
+        margin-top: 90px;
+        padding: 20px 30px;
+        color: $primary-color;
+        @include responsive-font-size;
+        font-weight: 700;
+        line-height: 100%;
+        border-radius: 10px;
+        border: none;
+        cursor: pointer;
 
-    background: $accent-color;
-    transition: background ease-in-out .3s;
+        background: $accent-color;
+        transition: background ease-in-out .3s;
 
-    &:hover {
-        background: rgb(0, 48, 142);
+        &:hover {
+            background: rgb(0, 48, 142);
 
+        }
     }
 }
+
 
 @media (max-width: 1220px) {
     .launch {
@@ -40,25 +41,22 @@
 @media (max-width: 990px) {
     .launch {
         padding: 80px 0 0;
+
+        &__text_wrapper {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        &__btn {
+            margin: 40px auto;
+        }
+
+        &__btn_wrapper {
+            display: flex;
+            justify-content: center;
+        }
     }
-
-    .launch__text_wrapper {
-        text-align: center;
-        margin-bottom: 40px;
-    }
-
-    .launch__btn {
-        margin: 40px auto;
-    }
-
-    .launch__btn_wrapper {
-        display: flex;
-        justify-content: center;
-    }
-
-
 }
-
 
 @media (max-width: 768px) {
     .launch {

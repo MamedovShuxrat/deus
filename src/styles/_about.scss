@@ -1,84 +1,86 @@
 .about {
     padding-bottom: 150px;
-}
 
-.about__inner {
-    display: flex;
-    border-radius: 40px;
 
-    background: rgb(239, 241, 247);
-}
+    &__inner {
+        display: flex;
+        border-radius: 40px;
 
-.about__context {
-    padding: 130px 0 40px 80px;
-    width: 50%;
-}
+        background: rgb(239, 241, 247);
+    }
 
-.about__title {
-    background: linear-gradient(90.00deg, rgb(57, 199, 236), rgb(57, 199, 236), rgb(0, 80, 236));
-    -webkit-background-clip:
-        text;
-    -webkit-text-fill-color:
-        transparent;
-    background-clip:
-        text;
-    text-fill-color:
-        transparent;
-    font-size: 50px;
-    font-weight: 700;
-    line-height: 120%;
-    margin-bottom: 20px;
-}
+    &__context {
+        padding: 130px 0 40px 80px;
+        width: 50%;
+    }
 
-.about__desc {
-    color: $second-color;
-    font-size: 30px;
-    font-weight: 400;
-    line-height: 140%;
-    margin-bottom: 50px;
-}
+    &__title {
+        background: linear-gradient(90.00deg, rgb(57, 199, 236), rgb(57, 199, 236), rgb(0, 80, 236));
+        -webkit-background-clip:
+            text;
+        -webkit-text-fill-color:
+            transparent;
+        background-clip:
+            text;
+        text-fill-color:
+            transparent;
+        font-size: 50px;
+        font-weight: 700;
+        line-height: 120%;
+        margin-bottom: 20px;
+    }
 
-.about__visual {
-    max-width: 50%;
-    padding: 130px 0 0 0;
+    &__desc {
+        color: $second-color;
+        font-size: 30px;
+        font-weight: 400;
+        line-height: 140%;
+        margin-bottom: 50px;
+    }
 
-}
-
-.about__img {
-    width: 100%;
-    max-height: 450px;
-    height: auto;
-    object-fit: cover;
-}
-
-.about__btn {
-    padding: 20px 30px;
-    color: $primary-color;
-    @include responsive-font-size;
-    font-weight: 700;
-    line-height: 100%;
-    border-radius: 10px;
-    border: none;
-    cursor: pointer;
-
-    background: $accent-color;
-    transition: background ease-in-out .3s;
-
-    &:hover {
-        background: rgb(0, 48, 142);
+    &__visual {
+        max-width: 50%;
+        padding: 130px 0 0 0;
 
     }
-}
 
+    &__img {
+        width: 100%;
+        max-height: 450px;
+        height: auto;
+        object-fit: cover;
+    }
+
+    &__btn {
+        padding: 20px 30px;
+        color: $primary-color;
+        @include responsive-font-size;
+        font-weight: 700;
+        line-height: 100%;
+        border-radius: 10px;
+        border: none;
+        cursor: pointer;
+
+        background: $accent-color;
+        transition: background ease-in-out .3s;
+
+        &:hover {
+            background: rgb(0, 48, 142);
+
+        }
+    }
+
+}
 
 @media (max-width: 1220px) {
     .about {
         padding-bottom: 100px;
+
+        &__context {
+            padding: 90px 0 40px 40px;
+        }
     }
 
-    .about__context {
-        padding: 90px 0 40px 40px;
-    }
 }
 
 @media (max-width: 990px) {
@@ -91,35 +93,35 @@
 @media (max-width: 768px) {
     .about {
         padding-bottom: 50px;
+
+
+        &__inner {
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        &__context {
+            width: 100%;
+            padding: 40px 40px 20px;
+            text-align: center;
+        }
+
+        &__desc {
+            margin-bottom: 20px;
+            font-size: 22px;
+        }
+
+        &__visual {
+            padding-top: 0;
+            max-width: 100%;
+            display: flex;
+            justify-content: center;
+
+        }
+
+        &__img {
+            width: 80%;
+
+        }
     }
-
-    .about__inner {
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-
-    .about__context {
-        width: 100%;
-        padding: 40px 40px 20px;
-        text-align: center;
-    }
-
-    .about__desc {
-        margin-bottom: 20px;
-        font-size: 22px;
-    }
-
-    .about__visual {
-        padding-top: 0;
-        max-width: 100%;
-        display: flex;
-        justify-content: center;
-
-    }
-
-    .about__img {
-        width: 80%;
-
-    }
-
 }

@@ -1,46 +1,44 @@
 .reasons {
     padding: 120px 0 150px;
-}
 
-.reasons__lists {
-    display: flex;
-    gap: 30px;
-    margin: 35px 0 50px;
-}
-
-.reasons__item {
-    color: $second-color;
-    font-size: 18px;
-    font-weight: 700;
-    line-height: 100%;
-    opacity: 0.4;
-    cursor: pointer;
-    padding-bottom: 9px;
-    position: relative;
-
-    &.active {
-        border-bottom: 2px solid rgb(0, 86, 254);
-        color: rgb(0, 86, 254);
-        opacity: 1;
+    &__lists {
+        display: flex;
+        gap: 30px;
+        margin: 35px 0 50px;
     }
 
+    &__item {
+        color: $second-color;
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 100%;
+        opacity: 0.4;
+        cursor: pointer;
+        padding-bottom: 9px;
+        position: relative;
 
-    &::before {
-        content: '';
-        position: absolute;
-        bottom: 0;
-        left: 0;
-        width: 0;
-        height: 2px;
-        background-color: $accent-color;
-        transition: width .4s ease;
+        &.active {
+            border-bottom: 2px solid rgb(0, 86, 254);
+            color: rgb(0, 86, 254);
+            opacity: 1;
+        }
+
+        &::before {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 0;
+            height: 2px;
+            background-color: $accent-color;
+            transition: width .4s ease;
+        }
+
+        &:hover:not(.active)::before {
+            width: 100%;
+        }
+
     }
-
-
-    &:hover:not(.active)::before {
-        width: 100%;
-    }
-
 }
 
 @media (max-width: 1220px) {
@@ -52,18 +50,17 @@
 @media (max-width: 990px) {
     .reasons {
         padding: 100px 0;
+
+        &__lists {
+            justify-content: center;
+            margin: 25px 0;
+        }
     }
 
     .tasks__text_wrapper {
         text-align: center;
     }
-
-    .reasons__lists {
-        justify-content: center;
-        margin: 25px 0;
-    }
 }
-
 
 @media (max-width: 768px) {
     .reasons {

@@ -1,49 +1,50 @@
 .partners {
     background: rgb(239, 241, 247);
     padding-top: 150px;
-}
 
-.partners__lists {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    gap: 20px;
-    margin-bottom: 90px;
-}
 
-.partners__item {
-    position: relative;
+    &__lists {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        gap: 20px;
+        margin-bottom: 90px;
+    }
 
-    &:hover {
-        .partners__img {
-            display: none;
-        }
+    &__item {
+        position: relative;
 
-        .partners__img-hower {
-            display: block;
+        &:hover {
+            .partners__img {
+                display: none;
+            }
+
+            .partners__img-hower {
+                display: block;
+            }
         }
     }
-}
 
-.partners__img {
-    display: block;
-    max-width: 100%;
-    object-fit: cover;
-}
+    &__img {
+        display: block;
+        max-width: 100%;
+        object-fit: cover;
+    }
 
-.partners__img-hower {
-    display: none;
-    max-width: 100%;
-    object-fit: cover;
-}
+    &__img-hower {
+        display: none;
+        max-width: 100%;
+        object-fit: cover;
+    }
 
-.slider-partners {
-    display: flex;
-    justify-content: center;
-}
+    .slider-partners {
+        display: flex;
+        justify-content: center;
+    }
 
-.partners__dot {
-    background: conic-gradient(rgb(57, 199, 236) 0%, rgb(57, 199, 236) 20%, rgb(255, 255, 255) 20%);
+    &__dot {
+        background: conic-gradient(rgb(57, 199, 236) 0%, rgb(57, 199, 236) 20%, rgb(255, 255, 255) 20%);
+    }
 }
 
 @media (max-width: 1220px) {
@@ -55,14 +56,14 @@
 @media (max-width: 990px) {
     .partners {
         padding-top: 80px;
-    }
 
-    .partners__inner {
-        text-align: center;
-    }
+        &__inner {
+            text-align: center;
+        }
 
-    .partners__item {
-        width: calc(50% - 20px);
+        &__item {
+            width: calc(50% - 20px);
+        }
     }
 }
 
@@ -71,6 +72,4 @@
     .partners {
         padding-top: 50px;
     }
-
-
 }

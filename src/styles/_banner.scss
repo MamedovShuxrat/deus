@@ -1,173 +1,175 @@
-.banner__inner {
-    padding: 60px 73px;
-    border-radius: 40px;
+.banner {
+    &__inner {
+        padding: 60px 73px;
+        border-radius: 40px;
 
-    background: linear-gradient(137.70deg, rgb(57, 199, 236) 4.565%, rgb(57, 199, 236) 4.575%, rgb(0, 80, 236) 96.443%);
+        background: linear-gradient(137.70deg, rgb(57, 199, 236) 4.565%, rgb(57, 199, 236) 4.575%, rgb(0, 80, 236) 96.443%);
 
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    column-gap: 120px;
-}
-
-.banner-mb {
-    margin-bottom: 150px;
-}
-
-.banner__title_wrapper {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-}
-
-.banner__title {
-    color: $primary-color;
-    font-size: 40px;
-    font-weight: 700;
-    line-height: 120%;
-}
-
-.banner__desc {
-    color: $primary-color;
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 140%;
-}
-
-.bunner__btn {
-    padding: 20px 30px;
-    border-radius: 10px;
-    background: $primary-color;
-    border: none;
-    cursor: pointer;
-    color: $second-color;
-    @include responsive-font-size;
-    font-weight: 700;
-    line-height: 100%;
-    display: block;
-    text-wrap: nowrap;
-
-    transition: all ease-in-out .2s;
-
-
-    &:hover {
-        box-shadow: 7px 7px 30px 0px rgba(210, 218, 227, 0.6), 5px 5px 13px 0px rgba(210, 218, 227, 0.3), -5px -5px 10px 0px rgb(255, 255, 255), -10px -10px 34px 0px rgba(255, 255, 255, 0.8);
-        background: rgb(239, 241, 247);
-
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        column-gap: 120px;
     }
+
+    &-mb {
+        margin-bottom: 150px;
+    }
+
+    &__title_wrapper {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    &__title {
+        color: $primary-color;
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 120%;
+    }
+
+    &__desc {
+        color: $primary-color;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 140%;
+    }
+
+    &__btn {
+        padding: 20px 30px;
+        border-radius: 10px;
+        background: $primary-color;
+        border: none;
+        cursor: pointer;
+        color: $second-color;
+        @include responsive-font-size;
+        font-weight: 700;
+        line-height: 100%;
+        display: block;
+        text-wrap: nowrap;
+
+        transition: all ease-in-out .2s;
+
+
+        &:hover {
+            box-shadow: 7px 7px 30px 0px rgba(210, 218, 227, 0.6), 5px 5px 13px 0px rgba(210, 218, 227, 0.3), -5px -5px 10px 0px rgb(255, 255, 255), -10px -10px 34px 0px rgba(255, 255, 255, 0.8);
+            background: rgb(239, 241, 247);
+
+        }
+    }
+
+    &-emblem {
+        background: rgb(239, 241, 247);
+        padding: 100px 0 30px;
+    }
+
+
+    &__text_wrapper,
+    &__visual_wrapper {
+        width: 50%;
+    }
+
+    &__text_wrapper {
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    &__info_wrapper {
+        display: flex;
+        padding: 16px 30px;
+        box-sizing: border-box;
+        border: 1px solid rgba(255, 255, 255, 0.5);
+        border-radius: 10px;
+    }
+
+    &__icon {
+        border-right: 1px solid rgba(255, 255, 255, 0.5);
+        padding-right: 30px;
+    }
+
+    &__info {
+        padding: 14px 0 14px 30px;
+    }
+
+    &__img {
+        width: 100%;
+        object-fit: cover;
+    }
+
+    &__icon_img {
+        width: 50px;
+        height: 50px;
+        object-fit: cover;
+    }
+
 }
-
-.banner-emblem {
-    background: rgb(239, 241, 247);
-    padding: 100px 0 30px;
-}
-
-
-.banner__text_wrapper,
-.banner__visual_wrapper {
-    width: 50%;
-}
-
-.banner__text_wrapper {
-    display: flex;
-    flex-direction: column;
-    gap: 40px;
-}
-
-.banner__info_wrapper {
-    display: flex;
-    padding: 16px 30px;
-    box-sizing: border-box;
-    border: 1px solid rgba(255, 255, 255, 0.5);
-    border-radius: 10px;
-
-}
-
-.banner__icon {
-    border-right: 1px solid rgba(255, 255, 255, 0.5);
-    padding-right: 30px;
-
-}
-
-.banner__info {
-    padding: 14px 0 14px 30px;
-}
-
-.banner__img {
-    width: 100%;
-    object-fit: cover;
-}
-
-.banner__icon_img {
-    width: 50px;
-    height: 50px;
-    object-fit: cover;
-}
-
 
 @media (max-width: 990px) {
-    .banner__inner {
-        padding: 40px;
-    }
+    .banner {
+        &__inner {
+            padding: 40px;
+        }
 
-    .banner-mb {
-        margin-bottom: 80px;
-    }
+        &-mb {
+            margin-bottom: 80px;
+        }
 
-    .banner__info_wrapper {
-        padding: 10px 15px;
+        &__info_wrapper {
+            padding: 10px 15px;
+        }
     }
 }
 
 
 @media (max-width: 768px) {
+    .banner {
+        &__inner {
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+            text-align: center;
+            padding: 30px;
+        }
 
+        &-emblem-bg {
+            position: relative;
 
-    .banner__inner {
-        flex-wrap: wrap;
-        gap: 20px;
-        justify-content: center;
-        text-align: center;
-        padding: 30px;
-    }
+            &::before {
+                content: '';
+                width: 100%;
+                height: 400px;
+                background: url('images/emblem.png') 50% / contain no-repeat;
+                position: absolute;
+                top: 0;
+                right: 0;
+                z-index: 1;
 
-    .banner-emblem-bg {
-        position: relative;
+            }
+        }
 
-        &::before {
-            content: '';
+        &__text_wrapper {
             width: 100%;
-            height: 400px;
-            background: url('images/emblem.png') 50% / contain no-repeat;
-            position: absolute;
-            top: 0;
-            right: 0;
-            z-index: 1;
+            z-index: 10;
 
         }
-    }
 
-    .banner__text_wrapper {
-        width: 100%;
-        z-index: 10;
+        &__visual_wrapper {
+            display: none;
+        }
 
-    }
+        &__title {
+            font-size: 30px;
+        }
 
-    .banner__visual_wrapper {
-        display: none;
-    }
+        &-mb {
+            margin-bottom: 50px;
+        }
 
-    .banner__title {
-        font-size: 30px;
-    }
+        &-emblem-bg {
+            overflow: hidden;
 
-    .banner-mb {
-        margin-bottom: 50px;
-    }
-
-    .banner-emblem-bg {
-        overflow: hidden;
-
+        }
     }
 }
 

@@ -12,8 +12,8 @@ $main-font-size: 16px;
 $font-desktop: 50px;
 
 
-$primary-fonts: 'Wix Madefor Display';
-$secondary-fonts: 'Roboto';
+$primary-fonts: 'Wix Madefor Display', sans-serif;
+$secondary-fonts: 'Roboto', sans-serif;
 
 @mixin responsive-font-size {
     font-size: $main-font-size;
